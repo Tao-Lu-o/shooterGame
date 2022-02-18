@@ -16,3 +16,4 @@ if (global.game_state == states.playing) {
 		audio_sound_gain(snd_final_boss,bossVol,60);
 	}
 }
+audio_play_sound(snd_esc,1,false);

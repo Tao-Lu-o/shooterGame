@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8628f74b-c314-4e2e-a1c7-0544c7eb77c6","path":"sprites/spr_life/spr_life.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8628f74b-c314-4e2e-a1c7-0544c7eb77c6","path":"sprites/spr_life/spr_life.yy",},"LayerId":{"name":"647fd539-db6e-4a9b-b023-9e14cd86d77f","path":"sprites/spr_life/spr_life.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_life","path":"sprites/spr_life/spr_life.yy",},"resourceVersion":"1.0","name":"8628f74b-c314-4e2e-a1c7-0544c7eb77c6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f7cf36c5-1638-4ebf-b1a1-a26c8a91570d","path":"sprites/spr_bullet_red_enemy/spr_bullet_red_enemy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f7cf36c5-1638-4ebf-b1a1-a26c8a91570d","path":"sprites/spr_bullet_red_enemy/spr_bullet_red_enemy.yy",},"LayerId":{"name":"0c32a7ed-cb2a-4b57-b7f2-f0e1bb37bf33","path":"sprites/spr_bullet_red_enemy/spr_bullet_red_enemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_bullet_red_enemy","path":"sprites/spr_bullet_red_enemy/spr_bullet_red_enemy.yy",},"resourceVersion":"1.0","name":"f7cf36c5-1638-4ebf-b1a1-a26c8a91570d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_life","path":"sprites/spr_life/spr_life.yy",},
+    "spriteId": {"name":"spr_bullet_red_enemy","path":"sprites/spr_bullet_red_enemy/spr_bullet_red_enemy.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"05bbe2bb-6bfa-4e1e-91a8-7fc828599393","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8628f74b-c314-4e2e-a1c7-0544c7eb77c6","path":"sprites/spr_life/spr_life.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a2064423-89ce-4b48-a07f-e5343b735475","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f7cf36c5-1638-4ebf-b1a1-a26c8a91570d","path":"sprites/spr_bullet_red_enemy/spr_bullet_red_enemy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,18 +54,18 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 8,
+    "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_life","path":"sprites/spr_life/spr_life.yy",},
+    "parent": {"name":"spr_bullet_red_enemy","path":"sprites/spr_bullet_red_enemy/spr_bullet_red_enemy.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_life",
+    "name": "spr_bullet_red_enemy",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"647fd539-db6e-4a9b-b023-9e14cd86d77f","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0c32a7ed-cb2a-4b57-b7f2-f0e1bb37bf33","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_life",
+  "name": "spr_bullet_red_enemy",
   "tags": [],
   "resourceType": "GMSprite",
 }

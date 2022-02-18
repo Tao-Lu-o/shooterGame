@@ -6,7 +6,7 @@ var cam_w = camera_get_view_width(cam);
 var cam_h = camera_get_view_height(cam);
 if(global.game_state == states.playing){
 	if(x > cam_x && x < (cam_x + cam_w) && y > cam_y && y < (cam_y + cam_h)){
-		var bullet = instance_create_layer(x, y, "Instances", obj_bullet_enemy);
+		var bullet = instance_create_layer(x, y, "Instances", obj_red_bullet);
 		bullet.atk = atk;
 		if(instance_exists(obj_player)) bullet.direction = point_direction(x, y, obj_player.x, obj_player.y);
 		bullet.speed = bullet.spd

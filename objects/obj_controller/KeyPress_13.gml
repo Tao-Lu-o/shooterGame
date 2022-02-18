@@ -8,6 +8,7 @@ if(global.game_state == states.paused){
 		if(audio_is_playing(snd_final_boss) && audio_sound_get_gain(snd_final_boss) < bossVol){
 			audio_sound_gain(snd_final_boss,bossVol,60);
 		}
+		audio_play_sound(snd_esc,1,false);
 	}
 	if(pauseOptionSelected == 1){
 		game_restart();

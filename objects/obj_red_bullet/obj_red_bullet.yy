@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bullet_blue",
-    "path": "sprites/spr_bullet_blue/spr_bullet_blue.yy",
+    "name": "spr_bullet_red_enemy",
+    "path": "sprites/spr_bullet_red_enemy/spr_bullet_red_enemy.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,9 +22,9 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +33,7 @@
     "path": "folders/Objects/Enemy Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_bullet_enemy",
+  "name": "obj_red_bullet",
   "tags": [],
   "resourceType": "GMObject",
 }

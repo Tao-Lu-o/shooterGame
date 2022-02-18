@@ -10,7 +10,7 @@ if(score >= healthMilestone){
 if(score >= bombMilestone && !canBomb){
 	bomb++;
 	canBomb = true;
-	audio_play_sound(snd_colorswitch,1,false);
+	audio_play_sound(snd_bomb_acquired,1,false);
 	if(bombMilestone == 0) bombMilestone += 2000;
 	else bombMilestone += 4000;
 }
