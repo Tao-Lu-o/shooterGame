@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_life","path":"sprites/spr_life/spr_life.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_life",
     "tags": [],
     "resourceType": "GMSequence",

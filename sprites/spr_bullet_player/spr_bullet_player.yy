@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bullet_player","path":"sprites/spr_bullet_player/spr_bullet_player.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_bullet_player",
     "tags": [],
     "resourceType": "GMSequence",

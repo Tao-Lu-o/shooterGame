@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_player_red","path":"sprites/spr_player_red/spr_player_red.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_player_red",
     "tags": [],
     "resourceType": "GMSequence",

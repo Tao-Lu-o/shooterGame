@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_enemy_blue","path":"sprites/spr_enemy_blue/spr_enemy_blue.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_enemy_blue",
     "tags": [],
     "resourceType": "GMSequence",

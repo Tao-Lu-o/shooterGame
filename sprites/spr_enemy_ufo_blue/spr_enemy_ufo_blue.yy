@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_enemy_ufo_blue","path":"sprites/spr_enemy_ufo_blue/spr_enemy_ufo_blue.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_enemy_ufo_blue",
     "tags": [],
     "resourceType": "GMSequence",
